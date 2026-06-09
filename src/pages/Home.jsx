@@ -71,7 +71,7 @@ function Home() {
           </div>
         </div>
 
-        {/* RIGHT CARD */}
+        {/* RIGHT CARD (UNCHANGED) */}
         <div className="hero-right">
           <div className="glow"></div>
 
@@ -96,7 +96,7 @@ function Home() {
         </div>
       </div>
 
-      {/* FEATURES */}
+      {/* FEATURES (UNCHANGED) */}
       <div className="features">
         <div className="feature">
           <h3>AI Resume Scoring</h3>
@@ -114,11 +114,66 @@ function Home() {
         </div>
       </div>
 
-      {/* CTA */}
+      {/* CTA (UNCHANGED) */}
       <div className="cta">
         <h2>Get hired faster with AI insights</h2>
 
         <Link to="/register">Create Free Account</Link>
+      </div>
+
+      {/* ================= NEW SCROLL SECTIONS ================= */}
+
+      {/* HOW AI WORKS */}
+      <div className="ai-section">
+        <h2>How AI Resume Analyzer Works</h2>
+
+        <div className="ai-steps">
+          <div className="ai-card">
+            <h3>1. Upload Resume</h3>
+            <p>Upload your PDF resume securely</p>
+          </div>
+
+          <div className="ai-card">
+            <h3>2. AI Processing</h3>
+            <p>AI extracts skills, experience & keywords</p>
+          </div>
+
+          <div className="ai-card">
+            <h3>3. Get Insights</h3>
+            <p>Score, gaps & job suggestions generated</p>
+          </div>
+        </div>
+      </div>
+
+      {/* RESUME PREVIEW SECTION */}
+      <div className="preview-section">
+        <h2>What AI Sees in Your Resume</h2>
+
+        <div className="preview-box">
+          <div className="preview-left">
+            <h3>Extracted Data</h3>
+            <ul>
+              <li>Skills Detection</li>
+              <li>Experience Analysis</li>
+              <li>Keyword Optimization</li>
+              <li>ATS Score Check</li>
+            </ul>
+          </div>
+
+          <div className="preview-right">
+            <div className="fake-resume">
+              <h3>John Doe</h3>
+              <p>Full Stack Developer</p>
+              <p>React | Node | MySQL | AI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* FINAL CTA SECTION */}
+      <div className="final-cta">
+        <h1>Ready to upgrade your resume with AI?</h1>
+        <Link to="/register">Get Started Now</Link>
       </div>
 
       {/* FOOTER */}
